@@ -1,0 +1,10 @@
+<script>
+
+var valor = prompt("Digite o valor por 15 min de uso R$:");
+var tempo = prompt("Digite o tempo de uso do cliente: ");
+
+var resultado = Math.ceil(tempo/15) * valor;
+
+document.write("Valor a pagar: R$" + resultado.toFixed(2));
+
+</script>
