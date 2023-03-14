@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+
+var medicamento = prompt("Digite o nome do medicamento:");
+var preco = prompt("Digite o preço do medicamento:");
+
+var resultado = Math.floor(preco * 2);
+
+document.write(medicamento + " custa: R$ " + resultado.toFixed(2));
+
+</script>
+
+</body>
+</html>
