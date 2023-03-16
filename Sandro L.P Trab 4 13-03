@@ -1,4 +1,3 @@
-
 <script>
 
 var valor = prompt("Digite o valor por 15 min de uso R$:");
