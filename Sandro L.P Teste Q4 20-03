@@ -1,0 +1,11 @@
+<script>
+
+var disciplina = prompt("Digite a disciplina para calcular a média:");
+var nomeAluno = prompt("Digite o nome do aluno(a): ")
+var nota1 = prompt("Digite a primeira nota na disciplina " + disciplina + ": ");
+var nota2 = prompt("Digite a segunda nota na disciplina " + disciplina + ": ");
+var media = (Number(nota1) + Number(nota2)) / 2;
+
+document.write("A média de " + nomeAluno + " em " + disciplina + " é de: " + media);
+
+</script>
