@@ -1,0 +1,11 @@
+<script>
+
+var produto = prompt("Digite o nome do produto: ")
+var preco = prompt ("Digte o preço do produto: ")
+var soma2produtos = Number(preco) + Number(preco)
+var preco3 = preco / 2 
+var promocao = Number(soma2produtos) + (Number(preco)/2);
+
+document.write(produto + " - Promoção: leve 3 por R$: " + promocao.toFixed(2) + " / O 3º produto custa apenas R$: " + preco3.toFixed(2))
+
+</script>
