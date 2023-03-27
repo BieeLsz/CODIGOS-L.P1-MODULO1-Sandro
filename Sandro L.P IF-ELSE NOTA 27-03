@@ -1,0 +1,12 @@
+<script>
+
+var nota1 =  prompt("digite a primeira nota:")
+
+if(nota1 >= 7){
+	alert("Você foi aprovado!")
+}
+else{
+	alert("Você reprovou!")
+}
+
+</script>
