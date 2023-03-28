@@ -7,11 +7,11 @@
 var velLimite = prompt("Digite a velocidade limite da estrada:")
 var velCondutor = prompt("Digite a velocidade do condutor na estrada:")
 
-var vlc = Number(velCondutor) 
+var diferenca = Math.abs(velCondutor - velLimite) / velLimite * 100;
 
-if(velCondutor <= velLimite){
+if(velCondutor<=velLimite){
 	alert("Sem Multa")
-} else if(velLimite * 0.2 <= velCondutor){
+} else if(diferenca<=20){
 	alert("Multa leve")
 } else {
 	alert("Multa Grave")
