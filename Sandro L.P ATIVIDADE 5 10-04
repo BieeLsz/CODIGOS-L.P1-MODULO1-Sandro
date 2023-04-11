@@ -2,14 +2,16 @@
 
 var dinheiro = prompt("Insira o dinheiro: (Valores:1.00/1.75/3.00 Tempo(min):30/60/120)")
 
-if(dinheiro>=1.00){
+else(dinheiro < 1){
+	alert("Valor insuficiente")	
+} else if(dinheiro <= 1.75){
 	var troco = dinhero - 1.00
     alert("Você tem 30 minutos e seu troco é de R$"+ troco)
 } else if(dinheiro >= 1.75) {
 	var troco = dinheiro - 1.75
     alert("Você tem 60 minutos e seu troco é de R$"+ troco)
 } else {
-	var troco = dinheiro - 3 
+	var troco = dinheiro - 3;
     alert("Você tem 120 minutos e seu troco é de R$"+ troco)
 }
 </script>
