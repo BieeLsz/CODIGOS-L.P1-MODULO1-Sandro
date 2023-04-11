@@ -1,15 +1,15 @@
 <script>
 
-var salario = prompt("Digite seu salário líquido:")
-var sexo = prompt("Qual é o seu sexo? (Ex: F para Feminino ou M para Masculino)")
+var salario = prompt("Digite seu salário líquido:");
+var sexo = prompt("Qual é o seu sexo? (Ex: F para Feminino ou M para Masculino)");
 
 if(sexo == "F"){
 	var desconto = (salario * 0.03);
-    var salariototal = salario - desconto
-    alert("Seu salario líquido é de: R$" + salariototal)
+    var salariototal = salario - desconto;
+    alert("Seu salario líquido é de: R$" + salariototal);
 } else {
 	var desconto = (salario * 0.05);
-    var salariototal = salario - desconto
-    alert("Seu salario líquido é de: R$" + salariototal)
+    var salariototal = salario - desconto;
+    alert("Seu salario líquido é de: R$" + salariototal);
 }
 </script>
