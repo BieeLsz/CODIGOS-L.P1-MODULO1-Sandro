@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var i = 0
+while (i < 4){
+	var n = prompt("Insira um número:");
+    document.write("O triplo deste número é: " + n * 3 + "<br>")
+    i++;
+}    
+</script>
+</body>
+</html>
