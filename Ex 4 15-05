@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var num = prompt("Insira um numero que deseja saber à tabuada: ")
+for(i=num;i>1;i--){
+	num = num - 1
+	document.write(num + ", ")
+    }
+</script>
+
+</body>
+</html>
