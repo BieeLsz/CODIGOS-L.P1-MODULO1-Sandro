@@ -3,10 +3,10 @@
 <body>
 
 <script>
-var num = prompt("Insira um numero que deseja saber à tabuada: ")
+var num = prompt("Insira um numero que deseja os números anteriores até um. ")
 for(i=num;i>1;i--){
 	num = num - 1
-	document.write(num + ", ")
+	document.write(" " + num)
     }
 </script>
 
