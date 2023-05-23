@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var i = 1;
+var fruta = prompt("Digite um nome de uma fruta")
+var n = prompt("Insira um número:");
+while (i <= n) {
+	document.write("A fruta é "+ fruta + ". #"+ i + ".<br>");
+    i++;
+}
+document.write("O número inserido foi: " + n)
+</script>
+</body>
+</html>
