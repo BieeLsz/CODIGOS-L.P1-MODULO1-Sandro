@@ -4,8 +4,8 @@
 
 <script>
 
-var velLimite = prompt("Digite a velocidade limite da estrada:")
-var velCondutor = prompt("Digite a velocidade do condutor na estrada:")
+var velLimite = Number(prompt("Digite a velocidade limite da estrada:"));
+var velCondutor = Number(prompt("Digite a velocidade do condutor na estrada:"));
 
 var diferenca = Math.abs(velCondutor - velLimite) / velLimite * 100;
 
