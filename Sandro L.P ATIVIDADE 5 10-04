@@ -1,6 +1,6 @@
 <script>
 
-var dinheiro = prompt("Insira o dinheiro: (Valores:1.00/1.75/3.00 Tempo(min):30/60/120)")
+var dinheiro = Number(prompt("Insira o dinheiro: (Valores:1.00/1.75/3.00 Tempo(min):30/60/120)"));
 
 var t30 = 1;
 var t60 = 1.75;
@@ -10,12 +10,12 @@ if(dinheiro < t30){
 	alert("Valor insuficiente")	
 } else if(dinheiro <= t60){
 	var troco = dinheiro - t30;
-    alert("Você tem 30 minutos e seu troco é de R$"+ troco)
-} else if(dinheiro <= t120){
+    alert("Você tem 30 minutos e seu troco é de R$"+ troco.toFixed(2));
+} else if(dinheiro < t120){
 	var troco = dinheiro - t60;
-    alert("Você tem 60 minutos e seu troco é de R$"+ troco)
+    alert("Você tem 60 minutos e seu troco é de R$"+ troco.toFixed(2));
 } else {
 	var troco = dinheiro - t120;
-    alert("Você tem 120 minutos e seu troco é de R$"+ troco)
+    alert("Você tem 120 minutos e seu troco é de R$"+ troco.toFixed(2));
 }
 </script>
